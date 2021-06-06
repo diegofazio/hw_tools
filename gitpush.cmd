@@ -1,4 +1,5 @@
+set /p Var1="Commit String:"
 git add .
-git commit -m "commit en curso"
+git commit -m %Var1
 git push
 pause
